@@ -4,12 +4,39 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
  */
 
+html{
+	height:100%;
+}
+
 body {
   padding-top: 54px;
+  height:100%;
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
+}
+
+/* Custom Css */
+.wrapper{
+	min-height:100%;
+	position:relative;
+}
+
+.content{
+	padding-bottom:60px;
+}
+
+.footer{
+	position: absolute;
+	bottom:0;
+	height: 60px;
+	width:100%;
+}
+
+.py-5{
+	padding-top: 1rem!important;
+	padding-bottom: 2rem!important;
 }
