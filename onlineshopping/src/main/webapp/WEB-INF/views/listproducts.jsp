@@ -12,7 +12,7 @@
 					<c:if test="${userClickAllProducts == true}">
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item"><a href="${contetRoot}/home">Home</a></li>
-							<li class="active">All Products</li>
+							<li class="breadcrumb-item active">All Products</li>
 						</ol>
 					</c:if>
 					<c:if test="${userClickCategoryProducts == true}">
